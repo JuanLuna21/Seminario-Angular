@@ -1,10 +1,12 @@
+//Angular Componentes
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-
+import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 
+//Mis componentes
 import { GifsPageComponent } from './gifs/gifs-page/gifs-page.component';
 import { BusquedaComponent } from './gifs/busqueda/busqueda.component';
 import { ResultadosComponent } from './gifs/resultados/resultados.component';
@@ -26,6 +28,7 @@ import { AppRoutingModule } from './app-routing.module';
     HttpClientModule,
     AppRoutingModule,
     RouterModule,
+    CommonModule,
   ],
   exports: [
     GifsPageComponent,

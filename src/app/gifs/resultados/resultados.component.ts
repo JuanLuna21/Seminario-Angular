@@ -13,7 +13,7 @@ export class ResultadosComponent {
     return this.gifsService.resultados;
   }
 
-  constructor( private gifsService: GifsService ) { }
+  constructor(private gifsService: GifsService) { }
 
 
 }
